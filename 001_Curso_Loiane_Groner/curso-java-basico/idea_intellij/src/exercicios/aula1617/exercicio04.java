@@ -1,6 +1,6 @@
 package src.exercicios.aula1617;
 
-public class exercicio04 {
+public class Exercicio04 {
     public static void main(String[] args) {
 
             int count = 0;
@@ -14,6 +14,6 @@ public class exercicio04 {
         }
         System.out.println("População A: "+ paisA);
         System.out.println("População B: "+ paisB);
-        System.out.println("Quantidade de anos para ultrapassagem: "+ count);
+        System.out.println("Quantidade de anos para ultrapassagem: "+ count +" anos.");
     }
 }

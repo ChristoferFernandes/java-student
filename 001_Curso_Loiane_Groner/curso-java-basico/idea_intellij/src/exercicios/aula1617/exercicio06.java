@@ -1,6 +1,6 @@
 package src.exercicios.aula1617;
 
-public class exercicio06 {
+public class Exercicio06 {
     public static void main(String[] args) {
 
             int count = 1;

@@ -2,14 +2,14 @@ package src.exercicios.aula1617;
 
 import java.util.Scanner;
 
-public class exercicio08 {
+public class Exercicio08 {
     public static void main(String[] args) {
         Scanner tecla = new Scanner(System.in);
 
             int count = 1;
             double valor;
             double soma = 0;
-            double media = 0;
+            double media;
 
         while (count <= 5) {
             System.out.print("Informe um valor: ");

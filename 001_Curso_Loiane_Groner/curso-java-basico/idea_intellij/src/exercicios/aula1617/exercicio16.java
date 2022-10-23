@@ -1,15 +1,18 @@
 package src.exercicios.aula1617;
 
-public class exercicio16 {
+public class Exercicio16 {
     public static void main(String[] args) {
 
-        int seqInicial = 0;
+        int seqInicial = 1;
         int seqFinal = 1;
         int fibonnaci = 0;
 
-        for (int count = 1; count <= 15; count++) {
+        System.out.print(seqInicial +",");
+        System.out.print(seqFinal+ ",");
+
+        while (fibonnaci < 500) {
             fibonnaci = seqInicial + seqFinal;
-            System.out.print(fibonnaci +", ");
+            System.out.print(fibonnaci +",");
             seqInicial = seqFinal;
             seqFinal = fibonnaci;
         }

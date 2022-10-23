@@ -2,12 +2,12 @@ package src.exercicios.aula1617;
 
 import java.util.Scanner;
 
-public class exercicio07 {
+public class Exercicio07 {
     public static void main(String[] args) {
         Scanner tecla = new Scanner(System.in);
 
-            int count = 1;
-            double valor, resultado = 0;
+            int count = 0;
+            double valor, resultado = Integer.MIN_VALUE;
 
         while (count <= 5){
             System.out.print("Informe um número: ");

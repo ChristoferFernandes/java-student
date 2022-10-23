@@ -2,7 +2,7 @@ package src.exercicios.aula1617;
 
 import java.util.Scanner;
 
-public class exercicio13 {
+public class Exercicio13 {
     public static void main(String[] args) {
         Scanner tecla = new Scanner(System.in);
 
