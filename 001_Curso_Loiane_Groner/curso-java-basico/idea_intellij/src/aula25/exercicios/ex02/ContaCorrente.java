@@ -10,7 +10,7 @@ public class ContaCorrente {
 	double saldo;
 	boolean contaEspecial;
 	double limite;
-	double limiteEspecial;
+	double saldoEspecial;
 
 	byte opcao;
 	double saque;
@@ -21,7 +21,7 @@ public class ContaCorrente {
 		numeroConta = 15;
 		saldo = 1500;
 		limite = 2500;
-		limiteEspecial = 750;
+		saldoEspecial = 750;
 
 		System.out.println("---- STATUS DA CONTA ----");
 		System.out.println();
@@ -41,15 +41,15 @@ public class ContaCorrente {
 
 		} else {
 			System.out.println("Saldo insuficiente");
-			System.out.print("Temos um limite especial disponível de R$" + nf.format(limiteEspecial) + " para saque, deseja utilizar? ");
+			System.out.print("Temos um limite especial disponível de R$" + nf.format(saldoEspecial) + " para saque, deseja utilizar? ");
 			usandoLimiteEspecial = key.next();
 			if (usandoLimiteEspecial.equalsIgnoreCase("sim")) {
 				contaEspecial = true;
 				System.out.print("Quanto você deseja sacar do limite especial? R$");
 					saque = key.nextDouble();
 
-				if (saque <= limiteEspecial) {
-					limiteEspecial -= saque;
+				if (saque <= saldoEspecial) {
+					saldoEspecial -= saque;
 					saldo -= saque;
 					System.out.println("Contando notas...");
 					System.out.println("Saque de R$"+ nf.format(saque) +" realizado com sucesso.");
@@ -70,10 +70,10 @@ public class ContaCorrente {
 			System.out.println("Depósito de R$"+ nf.format(deposito) +" realizado com sucesso.");
 			saldo+= deposito;
 
-		} else if (saldo < 0 && limiteEspecial <= 750) {
+		} else if (saldo < 0 && saldoEspecial <= 750) {
 			System.out.println("Deposito de R$"+ nf.format(deposito) +" realizado com sucesso.");
 			System.out.println("Desconto da utilização do limite especial, realizada com sucesso.");
-			limiteEspecial += deposito;
+			saldoEspecial += deposito;
 			saldo += deposito;
 
 		} else {
@@ -86,7 +86,7 @@ public class ContaCorrente {
 		System.out.println("É uma conta especial? "+ contaEspecial);
 
 		if (contaEspecial) {
-			System.out.println("Saldo do limite especial: R$"+ nf.format(limiteEspecial));
+			System.out.println("Saldo do limite especial: R$"+ nf.format(saldoEspecial));
 		}
 	}
 
@@ -104,7 +104,6 @@ public class ContaCorrente {
 			case 3:
 				mostrarSaldo();
 				break;
-
 			default:
 		}
 	}
