@@ -4,7 +4,7 @@ import java.util.Date;
 
 public class Exercicio04 {
     public static void main(String[] args) {
-        LivroBibliotecaEx04 livroBiblioteca = new LivroBibliotecaEx04();
+        LivroBiblioteca livroBiblioteca = new LivroBiblioteca();
 
             livroBiblioteca.capa = "O novo rei de Kamelot";
             livroBiblioteca.tituloLivro = "O rei Lancelot";

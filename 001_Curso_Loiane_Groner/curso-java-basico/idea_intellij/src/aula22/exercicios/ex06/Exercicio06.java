@@ -1,5 +1,4 @@
 package src.aula22.exercicios.ex06;
-
 public class Exercicio06 {
     public static void main(String [] args) {
         Contato agenda = new Contato();

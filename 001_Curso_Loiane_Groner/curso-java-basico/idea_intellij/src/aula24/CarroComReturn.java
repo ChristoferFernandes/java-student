@@ -14,7 +14,6 @@ public class CarroComReturn {
 
      double obterAutonomia() {
         System.out.println("Método obterAutonomia foi chamado.");
-
          return  capCombustivel * consumoCombustivel;
     }
 }

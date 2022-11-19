@@ -7,23 +7,24 @@ public class Exercicio03 {
 		Aluno aluno = new Aluno();
 
 		System.out.print("Informe a matricula do aluno: ");
-		aluno.matricula = key.nextInt();
+			aluno.matricula = key.nextInt();
 
 		System.out.print("Informe o nome do aluno: ");
-		aluno.nome = key.next();
+			aluno.nome = key.next();
 
 		System.out.print("Informe o nome do curso que " + aluno.nome + " está cursando: ");
-		aluno.curso = key.next();
+			aluno.curso = key.next();
 
-			aluno.disciplinas = new String[3];
 		for (int i = 0; i < aluno.disciplinas.length; i++) {
 			System.out.print("Informe o nome da " + (i + 1) + "º disciplina: ");
 			aluno.disciplinas[i] = key.next();
 		}
-			aluno.notasDisciplinas = new double[3];
 		for (int i = 0; i < aluno.notasDisciplinas.length; i++) {
-			System.out.print("Informe a nota da " + (i + 1) + "º disciplina ");
-			aluno.notasDisciplinas[i] = key.nextDouble();
+			System.out.print("Recebendo as notas da disciplina "+ aluno.disciplinas[i]);
+			for (int j = 0; j < aluno.notasDisciplinas[i].length; j++) {
+				System.out.println("Informe quanto você tirou na "+ (j + 1) +"º nota: ");
+					aluno.notasDisciplinas[i][j] = key.nextDouble();
+			}
 		}
 
 		aluno.mostrarResultado();

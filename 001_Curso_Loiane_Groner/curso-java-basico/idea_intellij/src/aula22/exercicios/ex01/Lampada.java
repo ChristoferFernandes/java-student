@@ -1,6 +1,6 @@
 package src.aula22.exercicios.ex01;
 
-public class LampadaEx01 {
+public class Lampada {
     String modelo;
     String tensao;
     int potencia;

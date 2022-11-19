@@ -1,8 +1,7 @@
 package src.aula22.exercicios.ex02;
-
 public class Exercicio02 {
     public static void main(String [] args) {
-        LivroEx02 livro = new LivroEx02();
+        Livro livro = new Livro();
 
             livro.capa = "O novo rei de Kamelot";
             livro.tituloLivro = "O rei Lancelot";

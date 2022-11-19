@@ -2,7 +2,7 @@ package src.aula22.exercicios.ex04;
 
 import java.util.Date;
 
-public class LivroBibliotecaEx04 {
+public class LivroBiblioteca {
         String capa;
         String tituloLivro;
         String autorLivro;

@@ -2,7 +2,6 @@ package src.aula25.exercicios.ex02;
 
 import java.text.DecimalFormat;
 import java.util.Scanner;
-
 public class ContaCorrente {
 	Scanner key = new Scanner(System.in);
 	DecimalFormat nf = new DecimalFormat("###,###.##");
@@ -11,7 +10,6 @@ public class ContaCorrente {
 	boolean contaEspecial;
 	double limite;
 	double saldoEspecial;
-
 	byte opcao;
 	double saque;
 	String usandoLimiteEspecial;
@@ -35,9 +33,9 @@ public class ContaCorrente {
 		saque = key.nextDouble();
 
 		if (saque <= saldo) {
+			saldo -= saque;
 			System.out.println("Contando notas...");
 			System.out.println("Saque de R$" + nf.format(saque) + " realizado com sucesso.");
-			saldo -= saque;
 
 		} else {
 			System.out.println("Saldo insuficiente");
@@ -66,9 +64,10 @@ public class ContaCorrente {
 		System.out.print("Quanto deseja depositar? R$");
 			deposito = key.nextDouble();
 
-		if(saldo >= 0 && saldo <= limite) {
-			System.out.println("Depósito de R$"+ nf.format(deposito) +" realizado com sucesso.");
+		if(saldo >= 0 && deposito + saldo <= limite) {
 			saldo+= deposito;
+			System.out.println("Depósito de R$"+ nf.format(deposito) +" realizado com sucesso.");
+
 
 		} else if (saldo < 0 && saldoEspecial <= 750) {
 			System.out.println("Deposito de R$"+ nf.format(deposito) +" realizado com sucesso.");

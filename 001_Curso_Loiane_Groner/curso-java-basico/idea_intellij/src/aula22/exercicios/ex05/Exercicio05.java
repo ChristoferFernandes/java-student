@@ -3,8 +3,8 @@ package src.aula22.exercicios.ex05;
 public class Exercicio05 {
     public static void main(String [] args) {
         ContaCorrente conta = new ContaCorrente();
-            conta.numeroConta = "15151617";
-            conta.agencia = "151213";
+            conta.numeroConta = "15";
+            conta.agencia = "13";
             conta.especial = true;
             conta.limiteEspecial = 500.50;
             conta.saldo = 1500.35;

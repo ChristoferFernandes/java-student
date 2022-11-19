@@ -27,5 +27,19 @@ public class TesteCarro {
         System.out.println("Marca: "+ hatch.marca);
         System.out.println("Modelo: "+ hatch.modelo);
         System.out.println("Ano de fabricação: "+ hatch.anoFabricacao);
+        System.out.println();
+
+        Carro sedan = new Carro();
+            sedan.marca = "Ford";
+            sedan.modelo = "Fusion";
+            sedan.anoFabricacao = 2009;
+            sedan.numDePassageiros = 5;
+            sedan.capCombustivel = 66;
+            sedan.consumoCombustivel = 10.2;
+
+        System.out.println("Marca: "+ sedan.marca);
+        System.out.println("Modelo: "+ sedan.modelo);
+        System.out.println("Ano de fabricação: "+ sedan.anoFabricacao);
+
     }
 }
