@@ -12,23 +12,21 @@ public class Exercicio06 {
             char jogou;
             int linha;
             int coluna;
-
+    
+        System.out.println("Jogador 1 = 'O'");
+        System.out.println("Jogador 2 = 'X'");
         do {
-            System.out.println("Jogador 1 = 'O'");
-            System.out.println("Jogador 2 = 'X'");
-            System.out.println("O jogo é de 3 linhas e 3 colunas, tome decisões com clareza para que possa ganhar do outro jogador.");
-
             if (jogada % 2 == 1) { // JOGADOR 1
-                System.out.println("Vez do jogador 1 fazer um movimento. Escolha linha e coluna (1-3)");
+                System.out.println("Vez do jogador 1");
                 jogou = 'O';
             } else {                    //JOGADOR 2
-                System.out.println("Vez do jogador 2 fazer um movimento. Escolha linha e coluna (1-3)");
+                System.out.println("Vez do jogador 2.");
                 jogou = 'X';
             }
 
             boolean linhaValida = false;
             do {
-                System.out.print("Informe em qual linha você quer jogar (Linha 1, 2 ou 3): ");
+                System.out.print(" Informe em qual linha você quer jogar (Linha 1, 2 ou 3): ");
                 linha = key.nextInt();
                 if (linha >= 1 && linha <= 3) {
                     linhaValida = true;
@@ -39,7 +37,7 @@ public class Exercicio06 {
 
             boolean colunaValida = false;
             do {
-                System.out.print("Informe em qual coluna você quer jogar (Coluna 1, 2 ou 3): ");
+                System.out.print(" Informe em qual coluna você quer jogar (Coluna 1, 2 ou 3): ");
                 coluna = key.nextInt();
 
                 if (coluna >= 1 && coluna <= 3) {

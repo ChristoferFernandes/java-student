@@ -1,41 +1,67 @@
 package src.aula25.exercicios.ex03;
 
+import java.util.Scanner;
 public class Aluno {
-	String nome;
-	int matricula;
-	String curso;
-	String[] disciplinas = new String[3];
-	double[][] notasDisciplinas = new double[3][4];
+	Scanner key = new Scanner(System.in);
+		String matricula;
+		String nome;
+		String nomeCurso;
+		String[] nomeDisciplinas;
+		double[][] notaDisciplinas;
+		double[] mediaDisciplinas;
 
-	void mostrarResultado() {
-		System.out.println("Disciplinas estudadas: ");
-		for (String j : disciplinas) {
-			System.out.println(j +" ");
+	void solicitarInfomacoes() {
+		System.out.print("Informe o número da matrícula: ");
+			matricula = key.next();
+		
+		System.out.print("Informe o nome do aluno: ");
+			nome = key.next();
+		
+		System.out.print("Informe o nome do curso que " + nome + " está matriculado: ");
+			nomeCurso = key.next();
+		
+			nomeDisciplinas = new String[3];
+	for (int i = 0; i < nomeDisciplinas.length; i++) { //RECEBENDO O NOME DAS DISCIPLINAS
+		System.out.print("Informe o nome da " + (i + 1) + "º disciplina: ");
+			nomeDisciplinas[i] = key.next();
+	}
+	
+	notaDisciplinas = new double[3][4];
+	for (int i = 0; i < notaDisciplinas.length; i++) {// RECEBENDO AS NOTAS
+		System.out.println("Informe as notas da disciplina " + nomeDisciplinas[i]);
+		for (int j = 0; j < notaDisciplinas[i].length; j++) {
+			System.out.print("Informe a " + (j + 1) + "º nota: ");
+			notaDisciplinas[i][j] = key.nextDouble();
 		}
-		System.out.println();
-		System.out.println("Notas das disciplinas: ");
-		for (int i = 0; i < notasDisciplinas.length; i++) {
-			for (int j = 0; j < notasDisciplinas[i].length; j++) {
-				System.out.println(notasDisciplinas[i][j]);
+	}
+}
+
+	void apresentarStatus() {
+			mediaDisciplinas = new double[4];
+		for (int i = 0; i < notaDisciplinas.length; i++) {
+			for (int j = 0; j < notaDisciplinas[i].length; j++) {
+				mediaDisciplinas[i] += notaDisciplinas[i][j] / 4;
+			}
+		}
+		
+		System.out.println(" ---- STATUS ---- ");
+		System.out.println("Nome do aluno: "+ nome);
+		System.out.println("Matricula do aluno: "+ matricula);
+		for (int i = 0; i < notaDisciplinas.length; i++) {
+			System.out.println("Notas da disciplina "+ nomeDisciplinas[i]);
+			for (int j = 0; j < notaDisciplinas[i].length; j++) {
+				System.out.print(notaDisciplinas[i][j] +" ");
 			}
 			System.out.println();
-			}
-
-		System.out.println();
-		System.out.println(" ---- Status ---- ");
-		for (int i = 0; i < notasDisciplinas.length; i++) {
-			for (int j = 0; j < notasDisciplinas[i].length; j++) {
-				if (notasDisciplinas[i][j] >= 7) {
-					System.out.println("Nota: " + notasDisciplinas[i]);
-					System.out.println("Disciplina: " + disciplinas[i]);
-					System.out.println(nome +" foi aprovado.");
-					System.out.println();
-				} else {
-					System.out.println("Nota: " + notasDisciplinas[i]);
-					System.out.println("Disciplina: " + disciplinas[i]);
-					System.out.println(nome +" foi reprovado.");
-					System.out.println();
-			}
+		}
+		for(int i = 0; i < notaDisciplinas.length; i++) {
+			System.out.println("Media da disciplina "+ nomeDisciplinas[i] +": ");
+			System.out.print(mediaDisciplinas[i] +"");
+			System.out.println();
+			if(mediaDisciplinas[i] >= 7) {
+				System.out.println("Aluno aprovado.");
+			} else {
+				System.out.println("Aluno reprovado.");
 			}
 		}
 	}
