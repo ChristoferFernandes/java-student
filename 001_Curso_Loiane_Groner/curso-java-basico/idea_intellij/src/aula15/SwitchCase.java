@@ -4,31 +4,62 @@ import java.util.Scanner;
 
 public class SwitchCase {
     public static void main(String[] args) {
-        Scanner tecla = new Scanner(System.in);
-
-        System.out.println("Entre com a informação de um dia da semana (1-7): ");
-            int semana = tecla.nextInt();
-        switch (semana){
-            case 1:
-                System.out.println("DOMINGO!");
-                break;
+        Scanner key = new Scanner(System.in);
+    
+        byte diaSemana;
+    
+        System.out.print("Informe um número de 1 a 7: ");
+        diaSemana = key.nextByte();
+        //EXEMPLO DE COMO FICARIA UM PROGRAMA QUE LEIA O NÚMERO DO USUÁRIO, E FIZESSE UM IF-ELSE ANINHADO.
+        /**if(diaSemana == 1)
+         {
+         System.out.println("DOMINGO!");
+         }
+         else if(diaSemana == 2)
+         {
+         System.out.println("SEGUNDA-FEIRA!");
+         }
+         else if(diaSemana == 3)
+         {
+         System.out.println("TERÇA-FEIRA!");
+         }
+         else if(diaSemana == 4)
+         {
+         System.out.println("QUARTA-FEIRA!");
+         }
+         else if(diaSemana == 5)
+         {
+         System.out.println("QUINTA-FEIRA!");
+         }
+         else if(diaSemana == 6)
+         {
+         System.out.println("SEXTA-FEIRA!");
+         }
+         else if(diaSemana == 7)
+         {
+         System.out.println("SÁBADO!");
+         }
+         else
+         {
+         System.out.println("Não é um dia da semana válido, tente novamente.");
+         }*/
+        //EXEMPLO UTILIZANDO SWITCH CASE
+        switch (diaSemana)
+        {
             case 2:
-                System.out.println("SEGUNDA-FEIRA!");
-                break;
             case 3:
-                System.out.println("TERÇA-FEIRA!");
-                break;
             case 4:
-                System.out.println("QUARTA-FEIRA!");
-                break;
             case 5:
-                System.out.println("SEXTA-FEIRA!");
+            case 6:
+                System.out.println("Dia útil!");
                 break;
+            case 1:
             case 7:
-                System.out.println("SÁBADO!");
+                System.out.println("Fim de semana!");
                 break;
             default:
-                System.out.println("Não é uma opção válida.");
+                System.out.println("Não é um dia da semana válido, tente novamente.");
+                break;
         }
     }
 }

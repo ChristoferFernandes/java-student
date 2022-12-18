@@ -1,7 +1,9 @@
 package src.aula13;
 
-public class OperadoresRelacionais {
-    public static void main(String[] args) {
+public class OperadoresRelacionais
+{
+    public static void main(String[] args)
+    {
         int valor1 = 1;
         int valor2 = 2;
 
