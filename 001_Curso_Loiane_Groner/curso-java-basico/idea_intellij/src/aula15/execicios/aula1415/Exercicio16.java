@@ -2,40 +2,69 @@ package src.aula15.execicios.aula1415;
 
 import java.util.Scanner;
 
-public class Exercicio16 {
-    public static void main(String[] args) {
-        Scanner tecla = new Scanner(System.in);
-
-        System.out.print("Informe o valor de A: ");
-        int a = tecla.nextInt();
-
-        if(a == 0){
-            System.out.println("Não é uma equação de 2º grau.");
-            System.exit(0);
-        }
-
-        System.out.print("Informe o valor de B: ");
-        int b = tecla.nextInt();
-
-        System.out.print("Informe o valor de C: ");
-        int c = tecla.nextInt();
-
-        System.out.println("Sua equação é: "+a+"x² + "+b+"x + "+c+" = 0");
-
-        double delta = Math.pow(b,2) -4*a*c;
-        double x1 = ((-b) + Math.sqrt(delta)) / (2*a);
-        double x2 = ((-b) - Math.sqrt(delta)) / (2*a);
-        System.out.println("O valor de DELTA: "+delta);
-
-        if(delta < 0){
-            System.out.println("Para DELTA negativo, não existem Raízes reais");
-        }else if(delta == 0){
-
-            System.out.println("Para DELTA zero, temos duas raízes iguais a "+x1);
-        }else{
-            System.out.println("Para DELTA positivo, temos duas raízes diferentes: ");
-            System.out.println("DELTA X¹: "+x1);
-            System.out.println("DELTA X²: "+x2);
-        }
-    }
+/**
+ * Faça um programa que calcule as raízes de uma equação do segundo
+ * grau, na forma ax2 + bx + c. O programa deverá pedir os valores de a,
+ * b e c e fazer as consistências, informando ao usuário nas seguintes
+ * situações:
+ * a. Se o usuário informar o valor de A igual a zero, a equação não é
+ * do segundo grau e o programa não deve fazer pedir os demais
+ * valores, sendo encerrado;
+ * b. Se o delta calculado for negativo, a equação não possui raizes
+ * reais. Informe ao usuário e encerre o programa;
+ * c. Se o delta calculado for igual a zero a equação possui apenas
+ * uma raiz real; informe-a ao usuário;
+ * d. Se o delta for positivo, a equação possui duas raiz reais;
+ * informe-as ao usuário;
+ */
+public class Exercicio16
+{
+	 public static void main(String[] args)
+	 {
+		  Scanner tecla = new Scanner(System.in);
+		  
+		  int valorA;
+		  int valorB;
+		  int valorC;
+		  double delta;
+		  double x1;
+		  double x2;
+		  
+		  System.out.print("Informe o valor de A: ");
+		  valorA = tecla.nextInt();
+		  
+		  if(valorA == 0)
+		  {
+				System.out.println("Não é uma equação de 2º grau.");
+				System.exit(0);
+		  }
+		  
+		  System.out.print("Informe o valor de B: ");
+		  valorB = tecla.nextInt();
+		  
+		  System.out.print("Informe o valor de C: ");
+		  valorC = tecla.nextInt();
+		  
+		  System.out.println("Sua equação é: "+valorA+"x² + "+valorB+"x + "+valorC+" = 0");
+		  
+		  delta = Math.pow(valorB,2) -4*valorA*valorC;
+		  x1 = ((-valorB) + Math.sqrt(delta)) / (2*valorA);
+		  x2 = ((-valorB) - Math.sqrt(delta)) / (2*valorA);
+		  System.out.println("O valor de DELTA: "+delta);
+		  
+		  if(delta < 0)
+		  {
+				System.out.println("Para DELTA negativo, não existem Raízes reais");
+		  }
+		  else if(delta == 0)
+		  {
+				System.out.println("Para DELTA zero, temos duas raízes iguais valorA "+x1);
+		  }
+		  else
+		  {
+				System.out.println("Para DELTA positivo, temos duas raízes diferentes: ");
+				System.out.println("DELTA X¹: "+x1);
+				System.out.println("DELTA X²: "+x2);
+		  }
+	 }
 }
