@@ -16,29 +16,30 @@ abaixo:
 Liquido : R$
 Obs.: Salário Bruto - Descontos = Salário Líquido.
  */
+
 import java.util.Scanner;
 
 public class Exer14 {
-	 public static void main(String[] args) {
-		  Scanner key = new Scanner(System.in);
+  public static void main(String[] args) {
+	Scanner key = new Scanner(System.in);
 
-		  double salarioHora, horasTrabalhadas, salarioBruto,inss,sindicato,impostoRenda;
+	double salarioHora, horasTrabalhadas, salarioBruto, inss, sindicato, impostoRenda;
 
-		  System.out.print("Quanto você ganha por hora? R$: ");
-		  salarioHora = key.nextDouble();
+	System.out.print("Quanto você ganha por hora? R$: ");
+	salarioHora = key.nextDouble();
 
-		  System.out.print("Quantas horas você trabalha durante o mês? ");
-		  horasTrabalhadas = key.nextDouble();
+	System.out.print("Quantas horas você trabalha durante o mês? ");
+	horasTrabalhadas = key.nextDouble();
 
-		  salarioBruto = salarioHora * horasTrabalhadas;
-		  impostoRenda = salarioBruto * 11 / 100;
-		  inss = salarioBruto * 8 / 100;
-		  sindicato = salarioBruto * 5 / 100;
+	salarioBruto = salarioHora * horasTrabalhadas;
+	impostoRenda = salarioBruto * 11 / 100;
+	inss = salarioBruto * 8 / 100;
+	sindicato = salarioBruto * 5 / 100;
 
-		  System.out.println("Salario Bruto: R$"+ salarioBruto);
-		  System.out.println("Imposto de renda (-11%): R$"+ impostoRenda);
-		  System.out.println("INSS (-8%): R$"+ inss);
-		  System.out.println("Sindicato (-5%): R$"+ sindicato);
-		  System.out.println("Salário Líquido: R$"+ (salarioBruto - impostoRenda - inss - sindicato));
-	 }
+	System.out.println("Salario Bruto: R$" + salarioBruto);
+	System.out.println("Imposto de renda (-11%): R$" + impostoRenda);
+	System.out.println("INSS (-8%): R$" + inss);
+	System.out.println("Sindicato (-5%): R$" + sindicato);
+	System.out.println("Salário Líquido: R$" + (salarioBruto - impostoRenda - inss - sindicato));
+  }
 }
