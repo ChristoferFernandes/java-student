@@ -17,47 +17,47 @@ o Dinheiro: R$ 20.00
 o Troco: R$ 11.00
 o ...*/
 public class Exer31 {
-	 public static void main(String[] args) {
-			Scanner key = new Scanner(System.in);
-			
-			boolean saindo = false;
-			int count;
-			String sair;
-			double preco, valor, troco, soma;
-			
-			soma = 0;
-			count = 1;
-			do {
-				 System.out.println("Lojas Tabajara");
-				 System.out.println("Pressione 0 para sair.");
-				 while (count != 0) {
-						System.out.print(count + " - R$");
-						preco = key.nextDouble();
-						
-						soma += preco;
-						if (preco == 0) {
-							 count = 0;
-							 break;
-						}
-						count++;
-				 }
-				 System.out.println("Total: R$" + soma);
-				 System.out.print("Dinheiro: R$");
-				 valor = key.nextDouble();
-				 troco = valor - soma;
-				 System.out.println("Troco: R$" + troco);
-				 System.out.print("Deseja continuar com a compra? [S/N]: ");
-				 sair = key.next();
-				 if (sair.equalsIgnoreCase("s")) {
-						preco = 0;
-						valor = 0;
-						troco = 0;
-						count = 1;
-						soma = 0;
-				 } else if (sair.equalsIgnoreCase("n")) {
-						saindo = true;
-						System.out.println("Obrigado por comprar nas lojas tabajaras...");
-				 }
-			} while (!saindo);
-	 }
+  public static void main(String[] args) {
+	 Scanner key = new Scanner(System.in);
+	 
+	 boolean saindo = false;
+	 int count;
+	 String sair;
+	 double preco, valor, troco, soma;
+	 
+	 soma = 0;
+	 count = 1;
+	 do {
+		System.out.println("Lojas Tabajara");
+		System.out.println("Pressione 0 para sair.");
+		while (count != 0) {
+		  System.out.print(count + " - R$");
+		  preco = key.nextDouble();
+		  
+		  soma += preco;
+		  if (preco == 0) {
+			 count = 0;
+			 break;
+		  }
+		  count++;
+		}
+		System.out.println("Total: R$" + soma);
+		System.out.print("Dinheiro: R$");
+		valor = key.nextDouble();
+		troco = valor - soma;
+		System.out.println("Troco: R$" + troco);
+		System.out.print("Deseja continuar com a compra? [S/N]: ");
+		sair = key.next();
+		if (sair.equalsIgnoreCase("s")) {
+		  preco = 0;
+		  valor = 0;
+		  troco = 0;
+		  count = 1;
+		  soma = 0;
+		} else if (sair.equalsIgnoreCase("n")) {
+		  saindo = true;
+		  System.out.println("Obrigado por comprar nas lojas tabajaras...");
+		}
+	 } while (!saindo);
+  }
 }

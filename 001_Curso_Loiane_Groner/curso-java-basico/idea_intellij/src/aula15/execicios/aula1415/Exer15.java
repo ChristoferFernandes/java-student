@@ -16,32 +16,32 @@ o Triângulo Escaleno: três lados diferentes;
 
  */
 public class Exer15 {
-	 public static void main(String[] args) {
-			Scanner key = new Scanner(System.in);
-			
-			int lado, lado2, lado3;
-			
-			System.out.print("Informe o 1º lado do triângulo: ");
-			lado = key.nextInt();
-			
-			System.out.print("Informe o 2º lado do triângulo: ");
-			lado2 = key.nextInt();
-			
-			System.out.print("Informe o  3º lado do triângulo: ");
-			lado3 = key.nextInt();
-			
-			if (lado + lado2 > lado3 || lado + lado3 > lado2 || lado2 + lado3 > lado) {
-				 System.out.println("Pode formar um TRIÂNGULO.");
-				 if (lado == lado2 && lado == lado3) {
-						System.out.println("Pode formar um triângulo EQUILATERO");
-				 } else if (lado != lado2 && lado2 != lado3 && lado != lado3) {
-						System.out.println("Pode formar um triângulo ESCALENO");
-				 } else if (lado == lado2 || lado2 == lado3) {
-						System.out.println("Pode formar um triângulo ISÓCELES");
-				 }
-			} else {
-				 System.out.println("Não pode formar um TRIÂNGULO");
-			}
-	 }
+  public static void main(String[] args) {
+	 Scanner key = new Scanner(System.in);
 	 
+	 int lado, lado2, lado3;
+	 
+	 System.out.print("Informe o 1º lado do triângulo: ");
+	 lado = key.nextInt();
+	 
+	 System.out.print("Informe o 2º lado do triângulo: ");
+	 lado2 = key.nextInt();
+	 
+	 System.out.print("Informe o  3º lado do triângulo: ");
+	 lado3 = key.nextInt();
+	 
+	 if (lado + lado2 > lado3 || lado + lado3 > lado2 || lado2 + lado3 > lado) {
+		System.out.println("Pode formar um TRIÂNGULO.");
+		if (lado == lado2 && lado == lado3) {
+		  System.out.println("Pode formar um triângulo EQUILATERO");
+		} else if (lado != lado2 && lado2 != lado3 && lado != lado3) {
+		  System.out.println("Pode formar um triângulo ESCALENO");
+		} else if (lado == lado2 || lado2 == lado3) {
+		  System.out.println("Pode formar um triângulo ISÓCELES");
+		}
+	 } else {
+		System.out.println("Não pode formar um TRIÂNGULO");
+	 }
+  }
+  
 }

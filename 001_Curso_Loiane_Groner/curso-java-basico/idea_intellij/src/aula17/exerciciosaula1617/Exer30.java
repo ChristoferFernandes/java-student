@@ -12,21 +12,21 @@ o 2 - R$ 0.36
 o ...
 o 50 - R$ 9.00*/
 public class Exer30 {
-	 public static void main(String[] args) {
-			Scanner key = new Scanner(System.in);
-			
-			double preco2, preco;
-			
-			System.out.print("Informe o preço do pão: R$");
-			preco = key.nextDouble();
-			
-			preco2 = preco;
-			System.out.println("Preço pão: R$" + preco);
-			System.out.println("Panificadora Pão de Ontem - Tabela de preços: ");
-			
-			for (int i = 1; i <= 50; i++) {
-				 System.out.println(i + " - R$" + preco);
-				 preco += preco2;
-			}
+  public static void main(String[] args) {
+	 Scanner key = new Scanner(System.in);
+	 
+	 double preco2, preco;
+	 
+	 System.out.print("Informe o preço do pão: R$");
+	 preco = key.nextDouble();
+	 
+	 preco2 = preco;
+	 System.out.println("Preço pão: R$" + preco);
+	 System.out.println("Panificadora Pão de Ontem - Tabela de preços: ");
+	 
+	 for (int i = 1; i <= 50; i++) {
+		System.out.println(i + " - R$" + preco);
+		preco += preco2;
 	 }
+  }
 }

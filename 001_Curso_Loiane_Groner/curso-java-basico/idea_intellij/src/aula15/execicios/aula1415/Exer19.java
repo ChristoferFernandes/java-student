@@ -12,25 +12,25 @@ o 12 = 1 dezena e 2 unidades Testar com: 326, 300, 100, 320,
 310,305, 301, 101, 311, 111, 25, 20, 10, 21, 11, 1, 7 e 16
  */
 public class Exer19 {
-	 public static void main(String[] args) {
-			Scanner key = new Scanner(System.in);
-			
-			int num, centena, dezena, unidade;
-			
-			System.out.print("Informe um número que seja menor que 1.000: ");
-			num = key.nextInt();
-			
-			centena = num / 100;
-			dezena = (num % 100) / 10;
-			unidade = (num % 100 % 10);
-			
-			if (num >= 100) {
-				 System.out.println(num + " = " + centena + " centenas, " + dezena + " dezenas, " + unidade + " unidades.");
-			} else if (num >= 10) {
-				 System.out.println(num + " = " + dezena + " dezenas, " + unidade + " unidades.");
-			} else {
-				 System.out.println(num + " = " + unidade + " unidades.");
-			}
-	 }
+  public static void main(String[] args) {
+	 Scanner key = new Scanner(System.in);
 	 
+	 int num, centena, dezena, unidade;
+	 
+	 System.out.print("Informe um número que seja menor que 1.000: ");
+	 num = key.nextInt();
+	 
+	 centena = num / 100;
+	 dezena = (num % 100) / 10;
+	 unidade = (num % 100 % 10);
+	 
+	 if (num >= 100) {
+		System.out.println(num + " = " + centena + " centenas, " + dezena + " dezenas, " + unidade + " unidades.");
+	 } else if (num >= 10) {
+		System.out.println(num + " = " + dezena + " dezenas, " + unidade + " unidades.");
+	 } else {
+		System.out.println(num + " = " + unidade + " unidades.");
+	 }
+  }
+  
 }

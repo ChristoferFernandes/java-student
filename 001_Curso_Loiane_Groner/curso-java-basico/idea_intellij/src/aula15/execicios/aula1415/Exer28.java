@@ -15,169 +15,169 @@ Escreva um programa que peça o tipo e a quantidade de carne comprada pelo usuá
 tipo e quantidade de carne, preço total, tipo de pagamento, valor do desconto e valor a pagar
  */
 public class Exer28 {
-	 public static void main(String[] args) {
-			Scanner key = new Scanner(System.in);
-			
-			int carne;
-			double quantidade, preco, desconto, total;
-			char usarOuNao;
-			
-			System.out.println("HIPERMERCADO TABAJARA");
-			System.out.println("|---------------------");
-			System.out.println("1- Filé Duplo");
-			System.out.println("2- Alcatra");
-			System.out.println("3- Picanha");
-			System.out.println("|--------------------");
-			carne = key.nextInt();
-			
-			switch (carne) {
-				 case 1:
-						System.out.print("Informe quantos quilos de filé duplo você quer comprar: ");
-						quantidade = key.nextDouble();
-						
-						if (quantidade <= 5) {
-							 preco = quantidade * 4.90;
-							 
-							 System.out.print("Deseja usar o cartão Tabajara?: ");
-							 usarOuNao = key.next().charAt(0);
-							 
-							 if (usarOuNao == 's' || usarOuNao == 'S') {
-									desconto = preco / 5;
-									total = preco - desconto;
-									System.out.println("COMPRA REALIZADA: " + quantidade + " kg de FILÉ DUPLO.");
-									System.out.println("FORMA DE PAGAMENTO: CARTÃO TABAJARA");
-									System.out.println("GANHOU 5% DE DESCONTO PELA COMPRA NO CARTÃO DA LOJA");
-									System.out.printf("DESCONTO: R$%.2f\n", desconto);
-									System.out.printf("TOTAL A PAGAR: R$%.2f\n", total);
-									System.out.println("    OBRIGADO E VOLTE SEMPRE!    ");
-									System.exit(0);
-							 }
-							 System.out.println("COMPRA REALIZADA: " + quantidade + " kg de FILÉ DUPLO.");
-							 System.out.println("FORMA DE PAGAMENTO: DINHEIRO");
-							 System.out.printf("TOTAL A PAGAR: R$%.2f\n", preco);
-							 System.out.println("    OBRIGADO E VOLTE SEMPRE!    ");
-						} else if (quantidade > 5) {
-							 preco = quantidade * 5.80;
-							 
-							 System.out.print("Deseja usar o cartão Tabajara?: ");
-							 usarOuNao = key.next().charAt(0);
-							 
-							 if (usarOuNao == 's' || usarOuNao == 'S') {
-									desconto = preco / 5;
-									total = preco - desconto;
-									System.out.println("COMPRA REALIZADA: " + quantidade + " kg de FILÉ DUPLO.");
-									System.out.println("FORMA DE PAGAMENTO: CARTÃO TABAJARA");
-									System.out.println("GANHOU 5% DE DESCONTO PELA COMPRA NO CARTÃO DA LOJA");
-									System.out.printf("DESCONTO: R$%.2f\n", desconto);
-									System.out.printf("TOTAL A PAGAR: R$%.2f\n", total);
-									System.out.println("    OBRIGADO E VOLTE SEMPRE!    ");
-									System.exit(0);
-							 }
-							 System.out.println("COMPRA REALIZADA: " + quantidade + " kg de FILÉ DUPLO.");
-							 System.out.println("FORMA DE PAGAMENTO: DINHEIRO");
-							 System.out.printf("TOTAL A PAGAR: R$%.2f\n", preco);
-							 System.out.println("    OBRIGADO E VOLTE SEMPRE!    ");
-						}
-						break;
-				 case 2:
-						System.out.print("Informe quantos quilos de Alcatra você quer comprar: ");
-						quantidade = key.nextDouble();
-						
-						if (quantidade <= 5) {
-							 preco = quantidade * 5.90;
-							 
-							 System.out.print("Deseja usar o cartão Tabajara?: ");
-							 usarOuNao = key.next().charAt(0);
-							 
-							 if (usarOuNao == 's' || usarOuNao == 'S') {
-									desconto = preco / 5;
-									total = preco - desconto;
-									
-									System.out.println("COMPRA REALIZADA: " + quantidade + " kg de ALCATRA.");
-									System.out.println("FORMA DE PAGAMENTO: CARTÃO TABAJARA");
-									System.out.println("GANHOU 5% DE DESCONTO PELA COMPRA NO CARTÃO DA LOJA");
-									System.out.printf("DESCONTO: R$%.2f\n", desconto);
-									System.out.printf("TOTAL A PAGAR: R$%.2f\n", total);
-									System.out.println("    OBRIGADO E VOLTE SEMPRE!    ");
-									System.exit(0);
-							 }
-							 System.out.println("COMPRA REALIZADA: " + quantidade + " kg de ALCATRA.");
-							 System.out.println("FORMA DE PAGAMENTO: DINHEIRO");
-							 System.out.printf("TOTAL A PAGAR: R$%.2f\n", preco);
-							 System.out.println("    OBRIGADO E VOLTE SEMPRE!    ");
-						} else if (quantidade > 5) {
-							 preco = quantidade * 6.80;
-							 System.out.print("Deseja usar o cartão Tabajara?: ");
-							 usarOuNao = key.next().charAt(0);
-							 
-							 if (usarOuNao == 's' || usarOuNao == 'S') {
-									desconto = preco / 5;
-									total = preco - desconto;
-									System.out.println("COMPRA REALIZADA: " + quantidade + " kg de ALCATRA.");
-									System.out.println("FORMA DE PAGAMENTO: CARTÃO TABAJARA");
-									System.out.println("GANHOU 5% DE DESCONTO PELA COMPRA NO CARTÃO DA LOJA");
-									System.out.printf("DESCONTO: R$%.2f\n", desconto);
-									System.out.printf("TOTAL A PAGAR: R$%.2f\n", total);
-									System.out.println("    OBRIGADO E VOLTE SEMPRE!    ");
-									System.exit(0);
-							 }
-							 System.out.println("COMPRA REALIZADA: " + quantidade + " kg de ALCATRA.");
-							 System.out.println("FORMA DE PAGAMENTO: DINHEIRO");
-							 System.out.printf("TOTAL A PAGAR: R$%.2f\n", preco);
-							 System.out.println("    OBRIGADO E VOLTE SEMPRE!    ");
-						}
-						break;
-				 case 3:
-						System.out.print("Informe quantos quilos de Picanha você quer comprar: ");
-						quantidade = key.nextDouble();
-						
-						if (quantidade <= 5) {
-							 preco = quantidade * 6.90;
-							 
-							 System.out.print("Deseja usar o cartão Tabajara?: ");
-							 usarOuNao = key.next().charAt(0);
-							 
-							 if (usarOuNao == 's' || usarOuNao == 'S') {
-									desconto = preco / 5;
-									total = preco - desconto;
-									
-									System.out.println("COMPRA REALIZADA: " + quantidade + " kg de PICANHA.");
-									System.out.println("FORMA DE PAGAMENTO: CARTÃO TABAJARA");
-									System.out.println("GANHOU 5% DE DESCONTO PELA COMPRA NO CARTÃO DA LOJA");
-									System.out.printf("DESCONTO: R$%.2f\n", desconto);
-									System.out.printf("TOTAL A PAGAR: R$%.2f\n", total);
-									System.out.println("    OBRIGADO E VOLTE SEMPRE!    ");
-									System.exit(0);
-							 }
-							 System.out.println("COMPRA REALIZADA: " + quantidade + " kg de PICANHA.");
-							 System.out.println("FORMA DE PAGAMENTO: DINHEIRO");
-							 System.out.printf("TOTAL A PAGAR: R$%.2f\n", preco);
-							 System.out.println("    OBRIGADO E VOLTE SEMPRE!    ");
-						} else if (quantidade > 5) {
-							 preco = quantidade * 7.80;
-							 System.out.print("Deseja usar o cartão Tabajara?: ");
-							 usarOuNao = key.next().charAt(0);
-							 
-							 if (usarOuNao == 's' || usarOuNao == 'S') {
-									desconto = preco / 5;
-									total = preco - desconto;
-									System.out.println("COMPRA REALIZADA: " + quantidade + " kg de PICANHA.");
-									System.out.println("FORMA DE PAGAMENTO: CARTÃO TABAJARA");
-									System.out.println("GANHOU 5% DE DESCONTO PELA COMPRA NO CARTÃO DA LOJA");
-									System.out.printf("DESCONTO: R$%.2f\n", desconto);
-									System.out.printf("TOTAL A PAGAR: R$%.2f\n", total);
-									System.out.println("    OBRIGADO E VOLTE SEMPRE!    ");
-									System.exit(0);
-							 }
-							 System.out.println("COMPRA REALIZADA: " + quantidade + " kg de PICANHA.");
-							 System.out.println("FORMA DE PAGAMENTO: DINHEIRO");
-							 System.out.printf("TOTAL A PAGAR: R$%.2f\n", preco);
-							 System.out.println("    OBRIGADO E VOLTE SEMPRE!    ");
-						}
-						break;
-				 default:
-						System.out.println("Opção inválida, Volte para o final da fila, espere sua vez, e escolha a carne se quiser.");
-						System.exit(0);
-			}
+  public static void main(String[] args) {
+	 Scanner key = new Scanner(System.in);
+	 
+	 int carne;
+	 double quantidade, preco, desconto, total;
+	 char usarOuNao;
+	 
+	 System.out.println("HIPERMERCADO TABAJARA");
+	 System.out.println("|---------------------");
+	 System.out.println("1- Filé Duplo");
+	 System.out.println("2- Alcatra");
+	 System.out.println("3- Picanha");
+	 System.out.println("|--------------------");
+	 carne = key.nextInt();
+	 
+	 switch (carne) {
+		case 1:
+		  System.out.print("Informe quantos quilos de filé duplo você quer comprar: ");
+		  quantidade = key.nextDouble();
+		  
+		  if (quantidade <= 5) {
+			 preco = quantidade * 4.90;
+			 
+			 System.out.print("Deseja usar o cartão Tabajara?: ");
+			 usarOuNao = key.next().charAt(0);
+			 
+			 if (usarOuNao == 's' || usarOuNao == 'S') {
+				desconto = preco / 5;
+				total = preco - desconto;
+				System.out.println("COMPRA REALIZADA: " + quantidade + " kg de FILÉ DUPLO.");
+				System.out.println("FORMA DE PAGAMENTO: CARTÃO TABAJARA");
+				System.out.println("GANHOU 5% DE DESCONTO PELA COMPRA NO CARTÃO DA LOJA");
+				System.out.printf("DESCONTO: R$%.2f\n", desconto);
+				System.out.printf("TOTAL A PAGAR: R$%.2f\n", total);
+				System.out.println("    OBRIGADO E VOLTE SEMPRE!    ");
+				System.exit(0);
+			 }
+			 System.out.println("COMPRA REALIZADA: " + quantidade + " kg de FILÉ DUPLO.");
+			 System.out.println("FORMA DE PAGAMENTO: DINHEIRO");
+			 System.out.printf("TOTAL A PAGAR: R$%.2f\n", preco);
+			 System.out.println("    OBRIGADO E VOLTE SEMPRE!    ");
+		  } else if (quantidade > 5) {
+			 preco = quantidade * 5.80;
+			 
+			 System.out.print("Deseja usar o cartão Tabajara?: ");
+			 usarOuNao = key.next().charAt(0);
+			 
+			 if (usarOuNao == 's' || usarOuNao == 'S') {
+				desconto = preco / 5;
+				total = preco - desconto;
+				System.out.println("COMPRA REALIZADA: " + quantidade + " kg de FILÉ DUPLO.");
+				System.out.println("FORMA DE PAGAMENTO: CARTÃO TABAJARA");
+				System.out.println("GANHOU 5% DE DESCONTO PELA COMPRA NO CARTÃO DA LOJA");
+				System.out.printf("DESCONTO: R$%.2f\n", desconto);
+				System.out.printf("TOTAL A PAGAR: R$%.2f\n", total);
+				System.out.println("    OBRIGADO E VOLTE SEMPRE!    ");
+				System.exit(0);
+			 }
+			 System.out.println("COMPRA REALIZADA: " + quantidade + " kg de FILÉ DUPLO.");
+			 System.out.println("FORMA DE PAGAMENTO: DINHEIRO");
+			 System.out.printf("TOTAL A PAGAR: R$%.2f\n", preco);
+			 System.out.println("    OBRIGADO E VOLTE SEMPRE!    ");
+		  }
+		  break;
+		case 2:
+		  System.out.print("Informe quantos quilos de Alcatra você quer comprar: ");
+		  quantidade = key.nextDouble();
+		  
+		  if (quantidade <= 5) {
+			 preco = quantidade * 5.90;
+			 
+			 System.out.print("Deseja usar o cartão Tabajara?: ");
+			 usarOuNao = key.next().charAt(0);
+			 
+			 if (usarOuNao == 's' || usarOuNao == 'S') {
+				desconto = preco / 5;
+				total = preco - desconto;
+				
+				System.out.println("COMPRA REALIZADA: " + quantidade + " kg de ALCATRA.");
+				System.out.println("FORMA DE PAGAMENTO: CARTÃO TABAJARA");
+				System.out.println("GANHOU 5% DE DESCONTO PELA COMPRA NO CARTÃO DA LOJA");
+				System.out.printf("DESCONTO: R$%.2f\n", desconto);
+				System.out.printf("TOTAL A PAGAR: R$%.2f\n", total);
+				System.out.println("    OBRIGADO E VOLTE SEMPRE!    ");
+				System.exit(0);
+			 }
+			 System.out.println("COMPRA REALIZADA: " + quantidade + " kg de ALCATRA.");
+			 System.out.println("FORMA DE PAGAMENTO: DINHEIRO");
+			 System.out.printf("TOTAL A PAGAR: R$%.2f\n", preco);
+			 System.out.println("    OBRIGADO E VOLTE SEMPRE!    ");
+		  } else if (quantidade > 5) {
+			 preco = quantidade * 6.80;
+			 System.out.print("Deseja usar o cartão Tabajara?: ");
+			 usarOuNao = key.next().charAt(0);
+			 
+			 if (usarOuNao == 's' || usarOuNao == 'S') {
+				desconto = preco / 5;
+				total = preco - desconto;
+				System.out.println("COMPRA REALIZADA: " + quantidade + " kg de ALCATRA.");
+				System.out.println("FORMA DE PAGAMENTO: CARTÃO TABAJARA");
+				System.out.println("GANHOU 5% DE DESCONTO PELA COMPRA NO CARTÃO DA LOJA");
+				System.out.printf("DESCONTO: R$%.2f\n", desconto);
+				System.out.printf("TOTAL A PAGAR: R$%.2f\n", total);
+				System.out.println("    OBRIGADO E VOLTE SEMPRE!    ");
+				System.exit(0);
+			 }
+			 System.out.println("COMPRA REALIZADA: " + quantidade + " kg de ALCATRA.");
+			 System.out.println("FORMA DE PAGAMENTO: DINHEIRO");
+			 System.out.printf("TOTAL A PAGAR: R$%.2f\n", preco);
+			 System.out.println("    OBRIGADO E VOLTE SEMPRE!    ");
+		  }
+		  break;
+		case 3:
+		  System.out.print("Informe quantos quilos de Picanha você quer comprar: ");
+		  quantidade = key.nextDouble();
+		  
+		  if (quantidade <= 5) {
+			 preco = quantidade * 6.90;
+			 
+			 System.out.print("Deseja usar o cartão Tabajara?: ");
+			 usarOuNao = key.next().charAt(0);
+			 
+			 if (usarOuNao == 's' || usarOuNao == 'S') {
+				desconto = preco / 5;
+				total = preco - desconto;
+				
+				System.out.println("COMPRA REALIZADA: " + quantidade + " kg de PICANHA.");
+				System.out.println("FORMA DE PAGAMENTO: CARTÃO TABAJARA");
+				System.out.println("GANHOU 5% DE DESCONTO PELA COMPRA NO CARTÃO DA LOJA");
+				System.out.printf("DESCONTO: R$%.2f\n", desconto);
+				System.out.printf("TOTAL A PAGAR: R$%.2f\n", total);
+				System.out.println("    OBRIGADO E VOLTE SEMPRE!    ");
+				System.exit(0);
+			 }
+			 System.out.println("COMPRA REALIZADA: " + quantidade + " kg de PICANHA.");
+			 System.out.println("FORMA DE PAGAMENTO: DINHEIRO");
+			 System.out.printf("TOTAL A PAGAR: R$%.2f\n", preco);
+			 System.out.println("    OBRIGADO E VOLTE SEMPRE!    ");
+		  } else if (quantidade > 5) {
+			 preco = quantidade * 7.80;
+			 System.out.print("Deseja usar o cartão Tabajara?: ");
+			 usarOuNao = key.next().charAt(0);
+			 
+			 if (usarOuNao == 's' || usarOuNao == 'S') {
+				desconto = preco / 5;
+				total = preco - desconto;
+				System.out.println("COMPRA REALIZADA: " + quantidade + " kg de PICANHA.");
+				System.out.println("FORMA DE PAGAMENTO: CARTÃO TABAJARA");
+				System.out.println("GANHOU 5% DE DESCONTO PELA COMPRA NO CARTÃO DA LOJA");
+				System.out.printf("DESCONTO: R$%.2f\n", desconto);
+				System.out.printf("TOTAL A PAGAR: R$%.2f\n", total);
+				System.out.println("    OBRIGADO E VOLTE SEMPRE!    ");
+				System.exit(0);
+			 }
+			 System.out.println("COMPRA REALIZADA: " + quantidade + " kg de PICANHA.");
+			 System.out.println("FORMA DE PAGAMENTO: DINHEIRO");
+			 System.out.printf("TOTAL A PAGAR: R$%.2f\n", preco);
+			 System.out.println("    OBRIGADO E VOLTE SEMPRE!    ");
+		  }
+		  break;
+		default:
+		  System.out.println("Opção inválida, Volte para o final da fila, espere sua vez, e escolha a carne se quiser.");
+		  System.exit(0);
 	 }
+  }
 }

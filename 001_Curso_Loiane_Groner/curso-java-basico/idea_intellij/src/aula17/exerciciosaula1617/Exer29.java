@@ -13,16 +13,16 @@ o 2 - R$ 3.98
 o ...
 o 50 - R$ 99.50 */
 public class Exer29 {
-	 public static void main(String[] args) {
-			Scanner key = new Scanner(System.in);
-			
-			double valor;
-			
-			valor = 1.99;
-			System.out.println("Lojas Quase Dois - Tabelas de preços: ");
-			for (int i = 1; i <= 50; i++) {
-				 System.out.println(i + " - R$" + valor);
-				 valor += 1.99;
-			}
+  public static void main(String[] args) {
+	 Scanner key = new Scanner(System.in);
+	 
+	 double valor;
+	 
+	 valor = 1.99;
+	 System.out.println("Lojas Quase Dois - Tabelas de preços: ");
+	 for (int i = 1; i <= 50; i++) {
+		System.out.println(i + " - R$" + valor);
+		valor += 1.99;
 	 }
+  }
 }
