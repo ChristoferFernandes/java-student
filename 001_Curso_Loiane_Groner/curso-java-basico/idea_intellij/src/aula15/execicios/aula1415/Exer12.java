@@ -22,53 +22,53 @@ Total de descontos : R$ 165,00
 Salário Liquido : R$ 935,00
  */
 public class Exer12 {
-  public static void main(String[] args) {
-	Scanner key = new Scanner(System.in);
-
-	double valorHora, fgts, sindicato, salarioLiquido, salarioBruto, impostoRenda, totalDesconto;
-	int horasTrabalhadas, impostoR;
-
-	System.out.print("Informe quantas horas você trabalhou esse mês: ");
-	horasTrabalhadas = key.nextInt();
-
-	System.out.print("Informe quanto você ganha a cada hora trabalhada: R$");
-	valorHora = key.nextDouble();
-
-	salarioBruto = valorHora * horasTrabalhadas;
-	if (salarioBruto <= 900) {
-	  impostoR = 0;
-	  impostoRenda = 0;
-	  sindicato = salarioBruto * 3 / 100;
-	  fgts = salarioBruto * 11 / 100;
-	  totalDesconto = impostoRenda + sindicato;
-	  salarioLiquido = salarioBruto - sindicato;
-	} else if (salarioBruto > 900 && salarioBruto <= 1500) {
-	  impostoR = 5;
-	  impostoRenda = salarioBruto * 5 / 100;
-	  sindicato = salarioBruto * 3 / 100;
-	  fgts = salarioBruto * 11 / 100;
-	  totalDesconto = impostoRenda + sindicato;
-	  salarioLiquido = salarioBruto - sindicato - impostoRenda;
-	} else if (salarioBruto > 1500 && salarioBruto <= 2500) {
-	  impostoR = 10;
-	  impostoRenda = salarioBruto * 10 / 100;
-	  sindicato = salarioBruto * 3 / 100;
-	  fgts = salarioBruto * 11 / 100;
-	  totalDesconto = impostoRenda + sindicato;
-	  salarioLiquido = salarioBruto - sindicato - impostoRenda;
-	} else {
-	  impostoR = 20;
-	  impostoRenda = salarioBruto * 20 / 100;
-	  sindicato = salarioBruto * 3 / 100;
-	  fgts = salarioBruto * 11 / 100;
-	  totalDesconto = impostoRenda + sindicato;
-	  salarioLiquido = salarioBruto - sindicato - impostoRenda;
-	}
-	System.out.println("Salário Bruto: (" + valorHora + " * " + horasTrabalhadas + "): R$" + salarioBruto);
-	System.out.println("(-) IR (" + impostoR + "%): R$" + impostoRenda);
-	System.out.println("(-) Sindicato (3%): R$" + sindicato);
-	System.out.println("FGTS (11%): R$" + fgts);
-	System.out.println("Total de descontos: R$" + totalDesconto);
-	System.out.println("Salário Liquído: R$" + salarioLiquido);
-  }
+	 public static void main(String[] args) {
+			Scanner key = new Scanner(System.in);
+			
+			double valorHora, fgts, sindicato, salarioLiquido, salarioBruto, impostoRenda, totalDesconto;
+			int horasTrabalhadas, impostoR;
+			
+			System.out.print("Informe quantas horas você trabalhou esse mês: ");
+			horasTrabalhadas = key.nextInt();
+			
+			System.out.print("Informe quanto você ganha a cada hora trabalhada: R$");
+			valorHora = key.nextDouble();
+			
+			salarioBruto = valorHora * horasTrabalhadas;
+			if (salarioBruto <= 900) {
+				 impostoR = 0;
+				 impostoRenda = 0;
+				 sindicato = salarioBruto * 3 / 100;
+				 fgts = salarioBruto * 11 / 100;
+				 totalDesconto = impostoRenda + sindicato;
+				 salarioLiquido = salarioBruto - sindicato;
+			} else if (salarioBruto > 900 && salarioBruto <= 1500) {
+				 impostoR = 5;
+				 impostoRenda = salarioBruto * 5 / 100;
+				 sindicato = salarioBruto * 3 / 100;
+				 fgts = salarioBruto * 11 / 100;
+				 totalDesconto = impostoRenda + sindicato;
+				 salarioLiquido = salarioBruto - sindicato - impostoRenda;
+			} else if (salarioBruto > 1500 && salarioBruto <= 2500) {
+				 impostoR = 10;
+				 impostoRenda = salarioBruto * 10 / 100;
+				 sindicato = salarioBruto * 3 / 100;
+				 fgts = salarioBruto * 11 / 100;
+				 totalDesconto = impostoRenda + sindicato;
+				 salarioLiquido = salarioBruto - sindicato - impostoRenda;
+			} else {
+				 impostoR = 20;
+				 impostoRenda = salarioBruto * 20 / 100;
+				 sindicato = salarioBruto * 3 / 100;
+				 fgts = salarioBruto * 11 / 100;
+				 totalDesconto = impostoRenda + sindicato;
+				 salarioLiquido = salarioBruto - sindicato - impostoRenda;
+			}
+			System.out.println("Salário Bruto: (" + valorHora + " * " + horasTrabalhadas + "): R$" + salarioBruto);
+			System.out.println("(-) IR (" + impostoR + "%): R$" + impostoRenda);
+			System.out.println("(-) Sindicato (3%): R$" + sindicato);
+			System.out.println("FGTS (11%): R$" + fgts);
+			System.out.println("Total de descontos: R$" + totalDesconto);
+			System.out.println("Salário Liquído: R$" + salarioLiquido);
+	 }
 }

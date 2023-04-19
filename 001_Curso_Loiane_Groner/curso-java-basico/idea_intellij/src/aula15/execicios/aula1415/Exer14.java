@@ -17,38 +17,38 @@ correspondente e a mensagem “APROVADO” se o conceito for
 A, B ou C ou “REPROVADO” se o conceito for D ou E.
  */
 public class Exer14 {
-  public static void main(String[] args) {
-	Scanner key = new Scanner(System.in);
-
-	double nota, nota2, media;
-	String conceito, aprovacao;
-
-	System.out.print("Informe a nota do 1º bimestre: ");
-	nota = key.nextDouble();
-
-	System.out.print("Informe a nota do 2º bimestre: ");
-	nota2 = key.nextDouble();
-
-	media = (nota + nota2) / 2;
-	if (media >= 9 && media <= 10) {
-	  conceito = "A";
-	  aprovacao = "Aprovado.";
-	} else if (media >= 7.5 && media < 9) {
-	  conceito = "B";
-	  aprovacao = "Aprovado.";
-	} else if (media >= 6 && media < 7.5) {
-	  conceito = "C";
-	  aprovacao = "Aprovado.";
-	} else if (media >= 4 && media < 6) {
-	  conceito = "D";
-	  aprovacao = "Reprovado.";
-	} else {
-	  conceito = "E";
-	  aprovacao = "Reprovado.";
-	}
-	System.out.println("Notas: " + nota + ", " + nota2);
-	System.out.println("Média: " + media);
-	System.out.println("Conceito: " + conceito);
-	System.out.println("Resultado: " + aprovacao);
-  }
+	 public static void main(String[] args) {
+			Scanner key = new Scanner(System.in);
+			
+			double nota, nota2, media;
+			String conceito, aprovacao;
+			
+			System.out.print("Informe a nota do 1º bimestre: ");
+			nota = key.nextDouble();
+			
+			System.out.print("Informe a nota do 2º bimestre: ");
+			nota2 = key.nextDouble();
+			
+			media = (nota + nota2) / 2;
+			if (media >= 9 && media <= 10) {
+				 conceito = "A";
+				 aprovacao = "Aprovado.";
+			} else if (media >= 7.5 && media < 9) {
+				 conceito = "B";
+				 aprovacao = "Aprovado.";
+			} else if (media >= 6 && media < 7.5) {
+				 conceito = "C";
+				 aprovacao = "Aprovado.";
+			} else if (media >= 4 && media < 6) {
+				 conceito = "D";
+				 aprovacao = "Reprovado.";
+			} else {
+				 conceito = "E";
+				 aprovacao = "Reprovado.";
+			}
+			System.out.println("Notas: " + nota + ", " + nota2);
+			System.out.println("Média: " + media);
+			System.out.println("Conceito: " + conceito);
+			System.out.println("Resultado: " + aprovacao);
+	 }
 }
