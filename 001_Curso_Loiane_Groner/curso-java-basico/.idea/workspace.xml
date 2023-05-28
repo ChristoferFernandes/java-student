@@ -9,16 +9,300 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38369ab0-7592-4e12-81af-3f5f8581754b" name="Changes" comment="" />
+    <list default="true" id="38369ab0-7592-4e12-81af-3f5f8581754b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/idea_intellij/src/aula40/TesteCarro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/idea_intellij/src/aula43/exercicios/ex01/Exercicio01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/idea_intellij/src/aula43/exercicios/ex01/Lampada.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/java-student.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/java-student.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/curso-java-basico.iml" beforeDir="false" afterPath="$PROJECT_DIR$/curso-java-basico.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/idea_intellij/build/curso-java-basico.jar" beforeDir="false" afterPath="$PROJECT_DIR$/idea_intellij/build/curso-java-basico.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/idea_intellij/src/aula19/exercicios/aula19/Exercicio01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/idea_intellij/src/aula19/exercicios/aula19/Exercicio02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/idea_intellij/src/aula19/exercicios/aula19/Exercicio03.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/idea_intellij/src/aula19/exercicios/aula19/Exercicio04.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/idea_intellij/src/aula19/exercicios/aula19/Exercicio05.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/idea_intellij/src/aula19/exercicios/aula19/Exercicio06.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/idea_intellij/src/aula19/exercicios/aula19/Exercicio07.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/idea_intellij/src/aula19/exercicios/aula19/Exercicio08.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/idea_intellij/src/aula19/exercicios/aula19/Exercicio09.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/idea_intellij/src/aula19/exercicios/aula19/Exercicio10.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/idea_intellij/src/aula19/exercicios/aula19/Exercicio11.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/idea_intellij/src/aula19/exercicios/aula19/Exercicio12.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/idea_intellij/src/aula19/exercicios/aula19/Exercicio13.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/idea_intellij/src/aula19/exercicios/aula19/Exercicio14.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/idea_intellij/src/aula19/exercicios/aula19/Exercicio15.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/idea_intellij/src/aula19/exercicios/aula19/Exercicio16.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/idea_intellij/src/aula19/exercicios/aula19/Exercicio17.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/idea_intellij/src/aula19/exercicios/aula19/Exercicio18.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/idea_intellij/src/aula19/exercicios/aula19/Exercicio19.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/idea_intellij/src/aula19/exercicios/aula19/Exercicio20.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/idea_intellij/src/aula19/exercicios/aula19/Exercicio21.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/idea_intellij/src/aula19/exercicios/aula19/Exercicio22.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/idea_intellij/src/aula19/exercicios/aula19/Exercicio23.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/idea_intellij/src/aula19/exercicios/aula19/Exercicio24.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/idea_intellij/src/aula19/exercicios/aula19/Exercicio25.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/idea_intellij/src/aula19/exercicios/aula19/Exercicio26.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/idea_intellij/src/aula19/exercicios/aula19/Exercicio27.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/idea_intellij/src/aula19/exercicios/aula19/Exercicio28.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/idea_intellij/src/aula19/exercicios/aula19/Exercicio29.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/idea_intellij/src/aula19/exercicios/aula19/Exercicio30.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/idea_intellij/src/aula19/exercicios/aula19/Exercicio31.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/idea_intellij/src/aula19/exercicios/aula19/Exercicio32.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/idea_intellij/src/aula19/exercicios/aula19/Exercicio33.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/idea_intellij/src/aula19/exercicios/aula19/Exercicio34.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/idea_intellij/src/aula19/exercicios/aula19/Exercicio35.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/idea_intellij/src/aula19/exercicios/aula19/Exercicio36.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/idea_intellij/src/aula19/exercicios/aula19/Exercicio37.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/idea_intellij/src/aula22/Carro.java" beforeDir="false" afterPath="$PROJECT_DIR$/idea_intellij/src/aula40/Carro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/idea_intellij/src/aula22/TesteCarro.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/idea_intellij/src/aula22/exercicios/Exercicios Aula 24.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/idea_intellij/src/aula40/exercicios/Exercicios Aula 24.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/idea_intellij/src/aula22/exercicios/ex01/Exercicio01.java" beforeDir="false" afterPath="$PROJECT_DIR$/idea_intellij/src/aula40/exercicios/ex01/LampadaTeste.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/idea_intellij/src/aula22/exercicios/ex01/Lampada.java" beforeDir="false" afterPath="$PROJECT_DIR$/idea_intellij/src/aula40/exercicios/ex01/Lampada.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/idea_intellij/src/aula22/exercicios/ex02/Exercicio02.java" beforeDir="false" afterPath="$PROJECT_DIR$/idea_intellij/src/aula40/exercicios/ex02/Exercicio02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/idea_intellij/src/aula22/exercicios/ex02/Livro.java" beforeDir="false" afterPath="$PROJECT_DIR$/idea_intellij/src/aula40/exercicios/ex02/Livro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/idea_intellij/src/aula22/exercicios/ex03/Exercicio03.java" beforeDir="false" afterPath="$PROJECT_DIR$/idea_intellij/src/aula40/exercicios/ex03/Exercicio03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/idea_intellij/src/aula22/exercicios/ex03/LivroLivraria.java" beforeDir="false" afterPath="$PROJECT_DIR$/idea_intellij/src/aula40/exercicios/ex03/LivroLivraria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/idea_intellij/src/aula22/exercicios/ex04/Exercicio04.java" beforeDir="false" afterPath="$PROJECT_DIR$/idea_intellij/src/aula40/exercicios/ex04/Exercicio04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/idea_intellij/src/aula22/exercicios/ex04/LivroBiblioteca.java" beforeDir="false" afterPath="$PROJECT_DIR$/idea_intellij/src/aula40/exercicios/ex04/LivroBiblioteca.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/idea_intellij/src/aula22/exercicios/ex05/ContaCorrente.java" beforeDir="false" afterPath="$PROJECT_DIR$/idea_intellij/src/aula40/exercicios/ex05/ContaCorrente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/idea_intellij/src/aula22/exercicios/ex05/Exercicio05.java" beforeDir="false" afterPath="$PROJECT_DIR$/idea_intellij/src/aula40/exercicios/ex05/Exercicio05.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/idea_intellij/src/aula22/exercicios/ex06/Contato.java" beforeDir="false" afterPath="$PROJECT_DIR$/idea_intellij/src/aula40/exercicios/ex06/Contato.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/idea_intellij/src/aula22/exercicios/ex06/Exercicio06.java" beforeDir="false" afterPath="$PROJECT_DIR$/idea_intellij/src/aula40/exercicios/ex06/Exercicio06.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/idea_intellij/src/aula23/CarroComMetodos.java" beforeDir="false" afterPath="$PROJECT_DIR$/idea_intellij/src/aula41/MetodoSimplesCarro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/idea_intellij/src/aula23/TesteCarroComMetodos.java" beforeDir="false" afterPath="$PROJECT_DIR$/idea_intellij/src/aula41/MetodoSimplesTesteCarro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/idea_intellij/src/aula24/CarroComReturn.java" beforeDir="false" afterPath="$PROJECT_DIR$/idea_intellij/src/aula42/CarroComReturn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/idea_intellij/src/aula24/TesteCarroComReturn.java" beforeDir="false" afterPath="$PROJECT_DIR$/idea_intellij/src/aula42/TesteCarroComReturn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/idea_intellij/src/aula25/CarroComParametro.java" beforeDir="false" afterPath="$PROJECT_DIR$/idea_intellij/src/aula43/CarroComParametro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/idea_intellij/src/aula25/TesteCarroComParametro.java" beforeDir="false" afterPath="$PROJECT_DIR$/idea_intellij/src/aula43/TesteCarroComParametro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/idea_intellij/src/aula25/exercicios/Exercicios Aulas 25 a 27.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/idea_intellij/src/aula43/exercicios/Exercicios Aulas 25 a 27.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/idea_intellij/src/aula25/exercicios/ex01/Exercicio01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/idea_intellij/src/aula25/exercicios/ex01/Lampada.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/idea_intellij/src/aula25/exercicios/ex02/ContaCorrente.java" beforeDir="false" afterPath="$PROJECT_DIR$/idea_intellij/src/aula43/exercicios/ex02/ContaCorrente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/idea_intellij/src/aula25/exercicios/ex02/Exercicio02.java" beforeDir="false" afterPath="$PROJECT_DIR$/idea_intellij/src/aula43/exercicios/ex02/Exercicio02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/idea_intellij/src/aula25/exercicios/ex03/Aluno.java" beforeDir="false" afterPath="$PROJECT_DIR$/idea_intellij/src/aula43/exercicios/ex03/Aluno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/idea_intellij/src/aula25/exercicios/ex03/Exercicio03.java" beforeDir="false" afterPath="$PROJECT_DIR$/idea_intellij/src/aula43/exercicios/ex03/Exercicio03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/idea_intellij/src/aula25/exercicios/ex04/Exercicio04.java" beforeDir="false" afterPath="$PROJECT_DIR$/idea_intellij/src/aula43/exercicios/ex04/Exercicio04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/idea_intellij/src/aula25/exercicios/ex04/JogoDaVelha.java" beforeDir="false" afterPath="$PROJECT_DIR$/idea_intellij/src/aula43/exercicios/ex04/JogoDaVelha.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/idea_intellij/src/aula29/Carro.java" beforeDir="false" afterPath="$PROJECT_DIR$/idea_intellij/src/aula44/Carro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/idea_intellij/src/aula29/TesteCarro.java" beforeDir="false" afterPath="$PROJECT_DIR$/idea_intellij/src/aula44/TesteCarro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Argumentos.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Argumentos2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Erro01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Erro02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Erro03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OlaMundo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/build/curso-java-basico.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula08/Erro01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula08/HelloWorld.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula10/Variaveis.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula11/CharSequenciaEscape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula11/Curiosidade.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula11/Piadinha.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula11/VariaveisBoolean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula11/VariaveisChar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula11/VariaveisFlutuantes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula11/VariaveisInteiras.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula12/LeituraDadosTeclado.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula13/CurtoCircuito.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula13/OperadoresAritmeticos.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula13/OperadoresLogicos.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula13/OperadoresRelacionais.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula13/execicios/aulas131211/Exer01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula13/execicios/aulas131211/Exer02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula13/execicios/aulas131211/Exer03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula13/execicios/aulas131211/Exer04.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula13/execicios/aulas131211/Exer05.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula13/execicios/aulas131211/Exer06.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula13/execicios/aulas131211/Exer07.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula13/execicios/aulas131211/Exer08.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula13/execicios/aulas131211/Exer09.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula13/execicios/aulas131211/Exer10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula13/execicios/aulas131211/Exer11.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula13/execicios/aulas131211/Exer12.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula13/execicios/aulas131211/Exer13.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula13/execicios/aulas131211/Exer14.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula13/execicios/aulas131211/Exer15.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula13/execicios/aulas131211/curso-javase-labs-aula11-12-13.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula14/IfElse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula15/SwitchCase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula15/execicios/aula1415/Exer01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula15/execicios/aula1415/Exer02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula15/execicios/aula1415/Exer03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula15/execicios/aula1415/Exer04.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula15/execicios/aula1415/Exer05.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula15/execicios/aula1415/Exer06.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula15/execicios/aula1415/Exer07.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula15/execicios/aula1415/Exer08.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula15/execicios/aula1415/Exer09.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula15/execicios/aula1415/Exer10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula15/execicios/aula1415/Exer11.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula15/execicios/aula1415/Exer12.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula15/execicios/aula1415/Exer13.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula15/execicios/aula1415/Exer14.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula15/execicios/aula1415/Exer15.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula15/execicios/aula1415/Exer16.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula15/execicios/aula1415/Exer17.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula15/execicios/aula1415/Exer18.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula15/execicios/aula1415/Exer19.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula15/execicios/aula1415/Exer20.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula15/execicios/aula1415/Exer21.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula15/execicios/aula1415/Exer22.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula15/execicios/aula1415/Exer23.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula15/execicios/aula1415/Exer24.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula15/execicios/aula1415/Exer25.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula15/execicios/aula1415/Exer26.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula15/execicios/aula1415/Exer27.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula15/execicios/aula1415/Exer28.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula15/execicios/aula1415/curso-javase-labs-aula14-15.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula16/DoWhile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula16/While.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula17/For.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula17/exerciciosaula1617/Exer01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula17/exerciciosaula1617/Exer02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula17/exerciciosaula1617/Exer03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula17/exerciciosaula1617/Exer04.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula17/exerciciosaula1617/Exer05.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula17/exerciciosaula1617/Exer06.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula17/exerciciosaula1617/Exer07.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula17/exerciciosaula1617/Exer08.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula17/exerciciosaula1617/Exer09.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula17/exerciciosaula1617/Exer10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula17/exerciciosaula1617/Exer11.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula17/exerciciosaula1617/Exer12.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula17/exerciciosaula1617/Exer13.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula17/exerciciosaula1617/Exer14.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula17/exerciciosaula1617/Exer15.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula17/exerciciosaula1617/Exer16.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula17/exerciciosaula1617/Exer17.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula17/exerciciosaula1617/Exer18.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula17/exerciciosaula1617/Exer19.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula17/exerciciosaula1617/Exer20.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula17/exerciciosaula1617/Exer21.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula17/exerciciosaula1617/Exer22.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula17/exerciciosaula1617/Exer23.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula17/exerciciosaula1617/Exer24.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula17/exerciciosaula1617/Exer25.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula17/exerciciosaula1617/Exer26.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula17/exerciciosaula1617/Exer27.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula17/exerciciosaula1617/Exer28.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula17/exerciciosaula1617/Exer29.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula17/exerciciosaula1617/Exer30.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula17/exerciciosaula1617/Exer31.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula17/exerciciosaula1617/Exer32.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula17/exerciciosaula1617/Exer33.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula17/exerciciosaula1617/Exer34.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula17/exerciciosaula1617/Exer35.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula17/exerciciosaula1617/Exer36.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula17/exerciciosaula1617/Exer37.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula17/exerciciosaula1617/Exer38.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula17/exerciciosaula1617/curso-javase-labs-aula16-17.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula18/BreakEContinue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula19/Arrays.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula19/exercicios/aula19/Exercicio01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula19/exercicios/aula19/Exercicio02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula19/exercicios/aula19/Exercicio03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula19/exercicios/aula19/Exercicio04.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula19/exercicios/aula19/Exercicio05.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula19/exercicios/aula19/Exercicio06.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula19/exercicios/aula19/Exercicio07.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula19/exercicios/aula19/Exercicio08.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula19/exercicios/aula19/Exercicio09.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula19/exercicios/aula19/Exercicio10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula19/exercicios/aula19/Exercicio11.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula19/exercicios/aula19/Exercicio12.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula19/exercicios/aula19/Exercicio13.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula19/exercicios/aula19/Exercicio14.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula19/exercicios/aula19/Exercicio15.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula19/exercicios/aula19/Exercicio16.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula19/exercicios/aula19/Exercicio17.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula19/exercicios/aula19/Exercicio18.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula19/exercicios/aula19/Exercicio19.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula19/exercicios/aula19/Exercicio20.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula19/exercicios/aula19/Exercicio21.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula19/exercicios/aula19/Exercicio22.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula19/exercicios/aula19/Exercicio23.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula19/exercicios/aula19/Exercicio24.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula19/exercicios/aula19/Exercicio25.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula19/exercicios/aula19/Exercicio26.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula19/exercicios/aula19/Exercicio27.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula19/exercicios/aula19/Exercicio28.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula19/exercicios/aula19/Exercicio29.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula19/exercicios/aula19/Exercicio30.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula19/exercicios/aula19/Exercicio31.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula19/exercicios/aula19/Exercicio32.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula19/exercicios/aula19/Exercicio33.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula19/exercicios/aula19/Exercicio34.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula19/exercicios/aula19/Exercicio35.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula19/exercicios/aula19/Exercicio36.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula19/exercicios/aula19/Exercicio37.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula19/exercicios/aula19/Exercicios Aula 19.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula20/MatrizTriDimensional.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula20/Matrizes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula20/MatrizesIrregulares.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula20/execicios/aula20/Exercicio01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula20/execicios/aula20/Exercicio02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula20/execicios/aula20/Exercicio03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula20/execicios/aula20/Exercicio04.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula20/execicios/aula20/Exercicio05.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula20/execicios/aula20/Exercicio06.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula20/execicios/aula20/Exercicios Aula 20.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula21/ForEach.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula22/Carro.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula22/TesteCarro.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula22/exercicios/Exercicios Aula 24.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula22/exercicios/ex01/Exercicio01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula22/exercicios/ex01/Lampada.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula22/exercicios/ex02/Exercicio02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula22/exercicios/ex02/Livro.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula22/exercicios/ex03/Exercicio03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula22/exercicios/ex03/LivroLivraria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula22/exercicios/ex04/Exercicio04.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula22/exercicios/ex04/LivroBiblioteca.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula22/exercicios/ex05/ContaCorrente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula22/exercicios/ex05/Exercicio05.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula22/exercicios/ex06/Contato.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula22/exercicios/ex06/Exercicio06.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula23/CarroComMetodos.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula23/TesteCarroComMetodos.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula24/CarroComReturn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula24/TesteCarroComReturn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula25/CarroComParametro.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula25/TesteCarroComParametro.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula25/exercicios/Exercicios Aulas 25 a 27.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula25/exercicios/ex01/Exercicio01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula25/exercicios/ex01/Lampada.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula25/exercicios/ex02/ContaCorrente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula25/exercicios/ex02/Exercicio02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula25/exercicios/ex03/Aluno.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula25/exercicios/ex03/Exercicio03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula25/exercicios/ex04/Exercicio04.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula25/exercicios/ex04/JogoDaVelha.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula29/Carro.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula29/TesteCarro.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula30/Carro.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/aula30/TesteCarro.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="ProjectId" id="2OfGYlybk5psdodIeS9NBmfymj8" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -28,10 +312,11 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "C:/Users/chris/Documents/Documentos/AreaDeEstudo/java-student/001_Curso_Loiane_Groner/curso-java-basico/idea_intellij/build",
+    "last_opened_file_path": "C:/Users/chris/Documents/Documentos/AreaDeEstudo/java-student/001_Curso_Loiane_Groner/curso-java-basico",
     "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -40,13 +325,13 @@
       <recent name="C:\Users\chris\Documents\Documentos\AreaDeEstudo\java-student\001_Curso_Loiane_Groner\curso-java-basico\sem-ide" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BreakEContinue">
-    <configuration name="BreakEContinue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.aula18.BreakEContinue" />
+  <component name="RunManager" selected="Application.Exercicio02">
+    <configuration name="Exercicio01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.aula25.exercicios.ex01.Exercicio01" />
       <module name="curso-java-basico" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.aula18.*" />
+          <option name="PATTERN" value="src.aula25.exercicios.ex01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -54,12 +339,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exer38" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.aula17.exerciciosaula1617.Exer38" />
+    <configuration name="Exercicio02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.aula25.exercicios.ex02.Exercicio02" />
       <module name="curso-java-basico" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.aula17.exerciciosaula1617.*" />
+          <option name="PATTERN" value="src.aula25.exercicios.ex02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Exercicio04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.aula22.exercicios.ex04.Exercicio04" />
+      <module name="curso-java-basico" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.aula22.exercicios.ex04.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Exercicio05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.aula22.exercicios.ex05.Exercicio05" />
+      <module name="curso-java-basico" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.aula22.exercicios.ex05.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Exercicio06" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.aula22.exercicios.ex06.Exercicio06" />
+      <module name="curso-java-basico" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.aula22.exercicios.ex06.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -69,8 +393,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BreakEContinue" />
-        <item itemvalue="Application.Exer38" />
+        <item itemvalue="Application.Exercicio02" />
+        <item itemvalue="Application.Exercicio01" />
+        <item itemvalue="Application.Exercicio06" />
+        <item itemvalue="Application.Exercicio05" />
+        <item itemvalue="Application.Exercicio04" />
       </list>
     </recent_temporary>
   </component>

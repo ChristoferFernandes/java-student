@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="curso-java-basico">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/curso-java-basico/idea_intellij/build/curso-java-basico.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
